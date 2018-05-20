@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Barlow:300');
+
+
+h1, h3 {
+
+	font-family: 'Barlow', sans-serif;
+	font-weight: lighter;
+    font-style: normal; 
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size:50px;
+}
+
+h3 {
+
+font-size: 24px;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    font-style: normal; 
+    font-size:24px;}
+
+
+p {
+	font-family: 'Barlow', sans-serif;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 100;
+}
+
+a {
+	font-style: italic;
+}
+
+#icons{position:relative; 
+    width: 64px; 
+    height: 64px; 
+   }
+
+    #icons a:hover {
+     background: #C93;
+        display: block;
+
+ }
+
+#social-media-icons { float: center; }
+#social-media-icons ul li { float: right; }
+#social-media-icons ul { padding-top: 10px; }
+
