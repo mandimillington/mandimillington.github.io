@@ -15,7 +15,12 @@ header {
 
 #intro { 
     text-align: center;
-    background: url(images/banner_1.jpg); 
+    padding: 300px 0px;
+    font-size: 50px;
+    background: url(images/banner_1.jpg);
+    height:90vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
@@ -74,5 +79,9 @@ img.float-img {
     float: left;
 }
 
+.clearfix::after {
+    clear: both;
+    display: table;
+}
 
 
