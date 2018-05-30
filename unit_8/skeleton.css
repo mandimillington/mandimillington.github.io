@@ -70,7 +70,7 @@ a {
 .cirleimages {
     width: 33.3%; 
     float:left; 
-    padding: 60px 0px; 
+    padding: 2em 0px; 
 
 }
 .circleimages a {
@@ -81,7 +81,7 @@ a {
 }
 .circleimages img {
     width:100%;
-    margin-top: 40px;
+    margin-top: 6%;
 }
 
 .circleimages {
@@ -90,9 +90,9 @@ a {
 
 img.float-img {
     float: left;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
 }
 
 .clearfix::after {
@@ -102,7 +102,7 @@ img.float-img {
 }
 
 .container {
-    padding: 20px;
+    padding: 3%;
     background-color: #ff7900;
     text-align: center;
     color: white;
@@ -111,7 +111,7 @@ img.float-img {
 input[type=text], input[type=submit] {
     width: 45%;
     padding: 12px;
-    margin: 8px 0;
+    margin: 3px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -126,5 +126,22 @@ input[type=submit] {
 input[type=submit]:hover {
     opacity: 0.8;
 }
+
+footer {
+    color: white;
+    text-align: center;   
+}
+
+@media only screen and (mix-width: 768px){
+    font-size: 12px;}
+    nav a {{display: inline-block;
+    }
+
+
+
+
+
+
+
 
 
